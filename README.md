@@ -40,7 +40,7 @@ The UI chosen is command line interface written in Python and tested using pytes
 ## Instructions to run the program on your local machine:
 1. Git cloning: On your terminal type
 ```
- https://github.com/ShreejaDahal/Zendesk-Coding-Challenge.git
+ git clone https://github.com/ShreejaDahal/Zendesk-Coding-Challenge.git
  ```
 2. Install dependencies: 
  ```pip3 install -r requirements.txt```
