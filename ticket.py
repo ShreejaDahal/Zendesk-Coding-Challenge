@@ -16,8 +16,6 @@ def display_all_tickets(url, user, pwd):
     # Connect to the Zendesk API and Request all the tickets for your account
     try:
         while url:
-            # print(url)
-            # print("--------------------PAGE:", page_num, "-------------)
             tickets_details = requests.get(url, auth=(user, pwd))
             if tickets_details.status_code != 200:
                 if tickets_details.status_code == 401:
